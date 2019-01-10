@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "npm run jest",
+    "jest": "jest -c ./jest/jest.config.js",
+    "test:watch": "npm run jest -- --watch",
+    "build": "webpack && rm -rf ../city-secrets-server/public && cp -R build ../city-secrets-server/public",
+    "start": "webpack-dev-server --hot --open --mode development"
   },
   "repository": {
     "type": "git",
@@ -20,7 +26,7 @@
     "autoprefixer": "^9.4.4",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^7.1.5",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
