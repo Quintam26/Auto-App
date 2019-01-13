@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from '../home/Home';
 import Header from '../header/Header';
 import About from '../about/About';
-import Search from '../search/Search';
+import Results from '../cars/Results';
 
 class App extends Component {
 
@@ -12,14 +12,14 @@ class App extends Component {
       <Router>
         <div>
           <header>
-            <Header/>
+            <Header onSearch={this.handleSearch}/>
           </header>
 
           <main>
             <Switch>
               <Route exact path="/" component={Home}/>
               <Route exact path="/about" component={About}/>
-              <Route exact path="/search" component={Search}/>
+              <Route exact path="/search" component={Results}/>
             </Switch>
           </main>
 

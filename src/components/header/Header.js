@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
+import Search from '../search/Search';
 
 class Header extends Component {
 
@@ -15,11 +16,12 @@ class Header extends Component {
               <li>
                 <Link to="/about">About</Link>
               </li>
-              <li>
-                <Link to="/search">Search</Link>
-              </li>
             </ul>
           </nav>
+        </section>
+
+        <section className="search-container">
+          <Route component={Search}/>
         </section>
       </div>
     );
