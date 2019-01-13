@@ -39,7 +39,6 @@ class Search extends Component {
 
   render() {
     const { search } = this.state;
-    console.log(search);
 
     return (
       <form className="search-form" onSubmit={event => this.handleSubmit(event)}>
