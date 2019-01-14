@@ -25,15 +25,19 @@ class CarDetail extends Component {
     const { car } = this.state;
     if(!car) return null;
 
-    const { id, heading, vin, vdp_url, carfax_clean_title } = car;
-    console.log(heading);
+    const { inventory_type, heading, vin, vdp_url, media, dealer } = car;
 
     return (
       <div>
         <h2>{heading}</h2>
-        <h3>Id: {id}</h3><h3>VIN: {vin}</h3>
-        <p>{vdp_url}</p>
-        <p>Clean Title: {carfax_clean_title}</p>
+        {media.photo_links[1] !== 'N/A'
+          ? <img src={media.photo_links[1]}/>
+          : <img src="N/A"/>}
+        <p>Inventory Type: {inventory_type}</p><p>VIN: {vin}</p>
+        <a href={vdp_url}>{vdp_url}</a>
+        <p>Dealer Name: {dealer.name}</p>
+        <p>Address: {dealer.street}, {dealer.city} {dealer.state}</p>
+        <p>Phone: {dealer.phone}</p>
       </div>
     );
   }
