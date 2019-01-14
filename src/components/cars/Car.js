@@ -10,17 +10,17 @@ export default class Car extends Component {
 
   render() {
     const { car } = this.props;
-    const { id, price, miles, year, make, model, photo_link } = car;
+    const { id, price, miles, build, media } = car;
 
     return (
       <li>
         <Link to={`/car/${id}`}>
-          {photo_link !== 'N/A'
-            ? <img src={photo_link}/>
+          Photo:{media.photo_links[0] !== 'N/A'
+            ? <img src={media.photo_links[0]}/>
             : <img src="N/A"/>}
-          <p>{year}</p><p>{make}</p><p>{model}</p>
-          <p>{price}</p>
-          <p>{miles}</p>
+          <p>Year: {build.year}</p><p>Make: {build.make}</p><p>Model: {build.model}</p>
+          <p>Price: {price}</p>
+          <p>Miles: {miles}</p>
         </Link>
       </li>
     );
