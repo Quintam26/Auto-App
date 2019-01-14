@@ -67,7 +67,7 @@ class Results extends Component {
     
     searchCars({ search }, { page, perPage })
       .then(
-        ({ listings, num_found }) => {
+        ({ listings, num_found, }) => {
           this.setState({ cars: listings, items: num_found, page });
         },
         err => {
@@ -84,7 +84,7 @@ class Results extends Component {
     const { cars, loading, error } = this.state;
     const { perPage, items } = this.state;
     const { searchTerm } = this;
-    console.log(items);
+    console.log(cars);
 
     return (
       <section>
