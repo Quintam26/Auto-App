@@ -25,9 +25,9 @@ export function search({ search }, { page }) {
   return get(`${EVERYTHING_URL}${searchTerm}${paging}`);
 }
 
-export function getVehicle(id){
+export function getCar(id){
   if(id) {
-    return getUrl();
+    return getUrl(`${BASE_URL}/listing/${id}?${API_QUERY}`);
   }
   else {
     return getUrl(EVERYTHING_URL);

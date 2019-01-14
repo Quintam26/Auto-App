@@ -4,6 +4,7 @@ import Home from '../home/Home';
 import Header from '../header/Header';
 import About from '../about/About';
 import Results from '../cars/Results';
+import CarDetail from '../cars/CarDetail';
 
 class App extends Component {
 
@@ -20,6 +21,7 @@ class App extends Component {
               <Route exact path="/" component={Home}/>
               <Route exact path="/about" component={About}/>
               <Route exact path="/search" component={Results}/>
+              <Route exact path="/car/:id" component={CarDetail}/>
             </Switch>
           </main>
 
