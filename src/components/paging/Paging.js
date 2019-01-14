@@ -6,7 +6,7 @@ export default class Paging extends Component {
   static propTypes = {
     page: PropTypes.number,
     perPage: PropTypes.number,
-    items: PropTypes.number,
+    num_found: PropTypes.number,
     onPage: PropTypes.func.isRequired
   };
 
@@ -16,11 +16,11 @@ export default class Paging extends Component {
   }
 
   render() {
-    const { items, page, perPage } = this.props;
+    const { num_found, page, perPage } = this.props;
     
-    if(!items) return <div>No results found, try another search</div>;
+    if(!num_found) return <div>No results found, try another search</div>;
 
-    const totalPages = Math.ceil(items / perPage);
+    const totalPages = Math.ceil(num_found / perPage);
     return (
       <div>
         <span>Page {page} of {totalPages}</span>
