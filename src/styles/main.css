@@ -1,0 +1,36 @@
+body {
+  font-family: 'Carrois Gothic SC', sans-serif;
+  color: rgb(26, 13, 65);
+}
+.search-form {
+  display: flex;
+  justify-content: flex-end;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+button{
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid silver;
+}
+
+button:hover {
+  border-top-color: maroon;
+  background: maroon;
+  color: white;
+}
+
+.input{
+  font-family: inherit;
+  font-size: var(--inputFontSize);
+  border-radius: 0.3rem;
+}
+
+a {
+  text-decoration: none;
+}

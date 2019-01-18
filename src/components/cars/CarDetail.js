@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { getCar } from '../../services/marketcheckApi';
+import styles from './CarDetail.css';
 
 class CarDetail extends Component {
 
@@ -28,7 +29,7 @@ class CarDetail extends Component {
     const { inventory_type, heading, vin, vdp_url, media, dealer } = car;
 
     return (
-      <div>
+      <div className={styles.carDetail}>
         <h2>{heading}</h2>
         {
           media.photo_links.map((image, i) => 
