@@ -30,9 +30,10 @@ class CarDetail extends Component {
     return (
       <div>
         <h2>{heading}</h2>
-        {media.photo_links[1] !== 'N/A'
-          ? <img src={media.photo_links[1]}/>
-          : <img src="N/A"/>}
+        {
+          media.photo_links.map((image, i) => 
+            <img src={media.photo_links[i]} image={image} key={i}/>)
+        }
         <p>Inventory Type: {inventory_type}</p><p>VIN: {vin}</p>
         <a href={vdp_url}>{vdp_url}</a>
         <p>Dealer Name: {dealer.name}</p>
