@@ -10,6 +10,7 @@ class Header extends Component {
       <div className={styles.header}>
         <nav className="topnav">
           <div className="header-container">
+            <h2 className="logo"><a>MQM</a></h2>
             <ul>
               <li>
                 <Link to="/">Home</Link>

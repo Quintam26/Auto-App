@@ -12,7 +12,7 @@ class Home extends Component {
           <div className="home-container">
             <div className="home-content">
               <h1><span className="main-text">AutoSearch</span> App</h1>
-              <p>Find the car of your dreams</p>
+              <p>Find The One</p>
               <Link to="/search" className="start-btn">Start</Link>
             </div>
           </div>

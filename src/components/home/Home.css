@@ -11,18 +11,18 @@
 .home-content {
   color: white;
   padding-top: 170px;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 4px 4px 4px black;
 }
 
 .home-content p {
-  font-size: 25px;
+  font-size: 35px;
   padding-bottom: 30px;
 }
 
 .home-content h1 {
   font-size: 60px;
   line-height: 1.2em;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .start-btn {
@@ -30,13 +30,14 @@
   color: white;
   padding-top: 170px;
   text-shadow: 2px 2px 2px black;
-  font-size: 20px;
-  background: black;
-  padding: 10px 20px;
+  font-size: 25px;
+  background: #121212;
+  padding: 15px 25px;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
  }
 
  .start-btn:hover {
    background: #A40000;
+   border: solid black 1px;
  }
