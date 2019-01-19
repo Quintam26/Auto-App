@@ -1,6 +1,20 @@
-// .about-container {
-//   display: flex;
-//   justify-content: center;
-//   text-align: center;
-//   padding-top: 170px;
-// }
+.about-info {
+  width: 100%;
+}
+.about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%
+}
+
+.about-info .image {
+  background: url('../../assets/open.png') no-repeat center center/cover;
+  height: 50vh;
+  width: 50vw;
+}
+
+.about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%
+}
