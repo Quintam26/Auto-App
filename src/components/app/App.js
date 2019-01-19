@@ -5,6 +5,7 @@ import Header from '../header/Header';
 import About from '../about/About';
 import Results from '../cars/Results';
 import CarDetail from '../cars/CarDetail';
+import Footer from '../footer/Footer';
 
 class App extends Component {
 
@@ -24,8 +25,7 @@ class App extends Component {
               <Route exact path="/car/:id" component={CarDetail}/>
             </Switch>
           </main>
-
-          <footer><p>&copy; 2019 Mario Quintana</p></footer>
+          <Footer/>
         </div>
       </Router>
     );

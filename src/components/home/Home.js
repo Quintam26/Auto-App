@@ -26,6 +26,24 @@ class Home extends Component {
             <Link to="/about" className="read-btn">Read More</Link>
           </div>
         </section>
+
+        <section className="features">
+          <div className="box">
+            <i className="fas fa-globe-americas fa-3x"></i>
+            <h3>Search The World</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, perferendis.</p>
+          </div>
+          <div className="box bg-ex">
+            <i className="fab fa-phoenix-framework fa-3x"></i>
+            <h3>Exotic Brands</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, perferendis.</p>
+          </div>
+          <div className="box">
+            <i className="fas fa-flag-checkered fa-3x"></i>
+            <h3>Race Forever</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, perferendis.</p>
+          </div>
+        </section>
       </div>        
     );
   }

@@ -9,7 +9,7 @@
 }
 
 .home-info {
-  height: 100%;
+  height: 60vh;
 }
 
 .info-img {
@@ -24,7 +24,7 @@
   width: 50%;
   height: 100%;
   text-align: center;
-  padding: 50px 30px;
+  padding: 110px 30px;
   overflow: hidden;
   background: #121212;
   color: white;
@@ -64,14 +64,14 @@
   color: white;
   padding-top: 170px;
   text-shadow: 2px 2px 2px black;
-  font-size: 25px;
+  font-size: 20px;
   background: #121212;
-  padding: 15px 25px;
+  padding: 13px;
   border: none;
   border-radius: 3px;
  }
 
- .read-btn {
+.read-btn {
   text-decoration: none;
   font-size: 17px;
   background: white;
@@ -80,13 +80,29 @@
   border-radius: 3px;
  }
 
- .start-btn:hover {
+.start-btn:hover {
    background: #A40000;
    border: solid black 1px;
- }
+}
 
- .read-btn:hover {
+.read-btn:hover {
   color: white;
   background: #A40000;
   border: solid black 1px;
+}
+
+.box {
+  float: left;
+  padding: 50px;
+  width: 33.3%;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+.bg-ex {
+  background: #A40000;
+  color: white;
 }
