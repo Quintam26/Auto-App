@@ -5,6 +5,7 @@ import styles from './Header.css';
 class Header extends Component {
 
   render() {
+
     return (
       <div className={styles.header}>
         <nav className="topnav">
@@ -22,6 +23,15 @@ class Header extends Component {
             </ul>
           </div>
         </nav>
+
+        <div className="showcase">
+          <div className="home-container">
+            <div className="home-content">
+              <h2>AutoSearch App</h2>
+              <p>Getting something on the page</p>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

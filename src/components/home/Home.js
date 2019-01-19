@@ -7,12 +7,12 @@ class Home extends Component {
 
     return (
       <div>
-        <div className="home-container">
+        {/* <div className="home-container">
           <div className="home-content">
             <h2>AutoSearch App</h2>
             <p>Getting something on the page</p>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }
