@@ -30,7 +30,3 @@ button:hover {
   font-size: var(--inputFontSize);
   border-radius: 0.3rem;
 }
-
-a {
-  text-decoration: none;
-}
