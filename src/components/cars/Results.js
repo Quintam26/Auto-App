@@ -10,7 +10,7 @@ class Results extends Component {
   state = {
     cars: null,
     num_found: 0,
-    perPage: 10,
+    perPage: 25,
     loading: false,
     error: null
   };
@@ -67,7 +67,7 @@ class Results extends Component {
     
     searchCars({ search }, { page, perPage })
       .then(
-        ({ listings, num_found, }) => {
+        ({ listings, num_found }) => {
           this.setState({ cars: listings, num_found, page });
         },
         err => {
