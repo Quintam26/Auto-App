@@ -18,20 +18,11 @@ class Header extends Component {
                 <Link to="/about">About</Link>
               </li>
               <li>
-                <Link to="/search">Search</Link>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>
         </nav>
-
-        <div className="showcase">
-          <div className="home-container">
-            <div className="home-content">
-              <h2>AutoSearch App</h2>
-              <p>Getting something on the page</p>
-            </div>
-          </div>
-        </div>
       </div>
     );
   }

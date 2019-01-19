@@ -10,22 +10,6 @@
   overflow: auto;
 }
 
-.home-container{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding-top: 170px;
-}
-
-p, h2 {
-  color: white;
-}
-
-.showcase {
-    background: url('../../assets/gt40.png') no-repeat center center/cover;
-    height: 600px;
-}
-
 .topnav {
   list-style: none;
   background: black;
