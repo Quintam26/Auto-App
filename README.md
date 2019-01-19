@@ -1,9 +1,12 @@
-Readme Here!
+AutoSearch App
 =====
-# AutoSearch
 
+## Tech Stack in use
+1. ReactJS
+2. NodeJS with Express
+3. MongoDB with Mongoose
+4. Market Share API
 
-## Get Started
-1. First step
-1. Second step
-...and so on.
+Details:
+
+This app allows users to search for new and used cars for sale derived from Market Shares database.
