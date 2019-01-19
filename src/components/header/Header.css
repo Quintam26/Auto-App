@@ -3,17 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+ 
+p {
+  margin: 10px 0;
+ }
 
-.header-container {
+ .header-container {
   margin: auto;
   max-width: 1600px;
   overflow: auto;
+  padding:  0 20px;
 }
 
 .topnav {
   list-style: none;
-  background: black;
+  background: #121212;
+  color: white;
   overflow: auto;
+}
+
+.topnav h2 {
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .topnav ul {
@@ -25,7 +37,7 @@
   float: left;
 }
 
-.topnav a {
+.topnav ul li a {
   display: block;
   color: white;
   text-decoration: none;
