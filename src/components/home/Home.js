@@ -17,6 +17,15 @@ class Home extends Component {
             </div>
           </div>
         </div>
+
+        <section className="home-info" id="bg-dark">
+          <div className="info-img"></div>
+          <div className="info-content">
+            <h2><span className="main-text">The Need</span> for Speed</h2>
+            <p>What sets these - and all - racers apart from less daredevilish mortals is their complete lack of fear and their joy of doing something on the edge. They love to speed because it is dangerous. You will never know the feeling of a driver when winning a race. The helmet hides feelings that cannot be understood.</p>
+            <Link to="/about" className="read-btn">Read More</Link>
+          </div>
+        </section>
       </div>        
     );
   }

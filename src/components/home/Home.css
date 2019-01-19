@@ -8,6 +8,28 @@
   color: #A40000;
 }
 
+.home-info {
+  height: 100%;
+}
+
+.info-img {
+  float: left;
+  width: 50%;
+  background: url('../../assets/night.png') no-repeat center center/cover;
+  min-height: 100%;
+}
+
+.info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+  background: #121212;
+  color: white;
+}
+
 .home-content {
   color: white;
   padding-top: 170px;
@@ -19,10 +41,22 @@
   padding-bottom: 30px;
 }
 
+.info-content p {
+  font-size: 20px;
+  line-height: 1.2em;
+  padding-bottom: 30px;
+}
+
 .home-content h1 {
   font-size: 60px;
   line-height: 1.2em;
   padding-bottom: 60px;
+}
+
+.info-content h2 {
+  font-size: 30px;
+  line-height: 1.2em;
+  padding-bottom: 30px;
 }
 
 .start-btn {
@@ -37,7 +71,22 @@
   border-radius: 3px;
  }
 
+ .read-btn {
+  text-decoration: none;
+  font-size: 17px;
+  background: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+ }
+
  .start-btn:hover {
    background: #A40000;
    border: solid black 1px;
  }
+
+ .read-btn:hover {
+  color: white;
+  background: #A40000;
+  border: solid black 1px;
+}
