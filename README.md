@@ -1,7 +1,7 @@
 AutoSearch App
 =====
 
-## Tech Stack in use
+Tech Stack in use
 1. ReactJS
 2. NodeJS with Express
 3. MongoDB with Mongoose
