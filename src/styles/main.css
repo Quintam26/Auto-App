@@ -2,6 +2,18 @@ body {
   font-family: 'Carrois Gothic SC', sans-serif;
   color: rgb(26, 13, 65);
 }
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 170px;
+}
+
 .search-form {
   display: flex;
   justify-content: flex-end;

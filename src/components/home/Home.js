@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import styles from './Home.css';
+// import styles from './Home.css';
 
 class Home extends Component {
 
   render() {
 
     return (
-      <div className={styles.home}>
+      <div>
         <div className="home-container">
           <div className="home-content">
             <h2>AutoSearch App</h2>
