@@ -77,7 +77,7 @@
   font-size: 17px;
   background: #121212;
   padding: 13px;
-  border: none;
+  border: solid black 1px;
   border-radius: 3px;
  }
 
@@ -87,19 +87,21 @@
   font-size: 17px;
   background: white;
   padding: 10px;
-  border: none;
+  border: solid black 1px;
   border-radius: 3px;
  }
 
 .start-btn:hover {
    background: #A40000;
    border: solid black 1px;
+   border-radius: 3px;
 }
 
 .read-btn:hover {
   color: white;
   background: #A40000;
   border: solid black 1px;
+  border-radius: 3px;
 }
 
 .box {

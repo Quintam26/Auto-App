@@ -1,10 +1,5 @@
 body {
   font-family: 'Carrois Gothic SC', sans-serif;
-  color: rgb(26, 13, 65);
-}
-
-* {
-  box-sizing: border-box;
 }
 
 main {
@@ -13,25 +8,23 @@ main {
   text-align: center;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .search-form {
   display: flex;
   justify-content: flex-end;
 }
 
-button{
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid silver;
-}
-
-button:hover {
-  border-top-color: maroon;
-  background: maroon;
-  color: white;
-}
-
-.input{
+input
+{
   font-family: inherit;
-  font-size: var(--inputFontSize);
+  border-radius: 0.3rem;
+}
+
+textarea
+{
+  font-family: inherit;
   border-radius: 0.3rem;
 }

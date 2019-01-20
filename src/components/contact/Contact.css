@@ -1,0 +1,72 @@
+.contact-image {
+  background: url('../../assets/road4.png') no-repeat center center/cover;
+  height: 110vh;
+  width: 100vw;
+}
+
+.contact-form {
+  padding-top: 170px;
+}
+.contact-form .form-group {
+  margin: 20px;
+}
+
+.contact-form input {
+  width: 50%;
+  padding: 15px;
+}
+
+.contact-form textarea {
+  width: 50%;
+  padding: 10px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.contact-btn {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  background: #121212;
+  padding: 13px;
+  border: solid black 1px;
+  border-radius: 3px;
+  margin-bottom: 60px;
+}
+
+.contact-btn:hover {
+  background: #A40000;
+  border: solid black 1px;
+  border-radius: 3px;
+}
+
+.box-bk {
+  text-shadow: 3px 3px 3px black;
+  color: white;
+  float: left;
+  width: 33.3%;
+}
+
+.c-heading {
+  font-size: 45px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.contact-p {
+  padding-bottom: 20px;
+  font-size: 25px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.form-group {
+  position: relative;
+  padding-top: 1.5rem;
+}
+
+label {
+  position: absolute;
+  top: 0;
+  font-size: 20px;
+}
