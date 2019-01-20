@@ -17,6 +17,7 @@
   width: 50%;
   background: url('../../assets/night.png') no-repeat center center/cover;
   min-height: 100%;
+  padding: 0 30px;
 }
 
 .info-content {
@@ -32,12 +33,23 @@
 
 .home-content {
   color: white;
-  padding-top: 170px;
+  padding-top: 200px;
   text-shadow: 4px 4px 4px black;
 }
 
-.home-content p {
-  font-size: 35px;
+.info-img h2 {
+  color: white;
+  padding-top: 110px;
+  text-shadow: 4px 4px 4px black;
+  font-size: 30px;
+  line-height: 1.2em;
+  padding-bottom: 30px;
+}
+
+.info-img p {
+  color: white;
+  font-size: 20px;
+  line-height: 1.2em;
   padding-bottom: 30px;
 }
 
@@ -62,9 +74,7 @@
 .start-btn {
   text-decoration: none;
   color: white;
-  padding-top: 170px;
-  text-shadow: 2px 2px 2px black;
-  font-size: 20px;
+  font-size: 17px;
   background: #121212;
   padding: 13px;
   border: none;
@@ -73,6 +83,7 @@
 
 .read-btn {
   text-decoration: none;
+  color: black;
   font-size: 17px;
   background: white;
   padding: 10px;
