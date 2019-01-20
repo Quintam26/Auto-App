@@ -6,6 +6,7 @@ import About from '../about/About';
 import Results from '../cars/Results';
 import CarDetail from '../cars/CarDetail';
 import Footer from '../footer/Footer';
+import Contact from '../contact/Contact';
 
 class App extends Component {
 
@@ -21,6 +22,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Home}/>
               <Route exact path="/about" component={About}/>
+              <Route exact path="/contact" component={Contact}/>
               <Route exact path="/search" component={Results}/>
               <Route exact path="/car/:id" component={CarDetail}/>
             </Switch>
