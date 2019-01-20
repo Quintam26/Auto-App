@@ -6,18 +6,33 @@ class About extends Component {
   render() {
     return (
       <div className={styles.about}>
+      
         <section className="about-info">
           <div className="about-container">
             <div className="info-left">
-              <h1><span className="main-text">About</span> AutoSearch</h1>
+              <h1 className="l-heading"><span className="main-text">About</span> AutoSearch</h1>
               <p>If you only read the books that everyone else is reading, you can only think what everyone else is thinking.</p>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptates repudiandae ea quod fugit, dignissimos rem temporibus deleniti laudantium vitae amet voluptatibus unde animi omnis tempore excepturi corporis sint corrupti!</p>
             </div>
 
             <div className="info-right">
-              <div className="image">
+              <div className="image"/>
+            </div>
+          </div>
+        </section>
 
-              </div>
+        <div className="clr"/>
+
+        <section className="tests">
+          <div className="test-container">
+            <h2 className="about-heading">Automotive Perfection</h2>
+            <div className="test1">
+              <div className="test-image1"/>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iure architecto! Harum quibusdam rerum aspernatur tenetur dolore aliquam dicta, illum quia asperiores, praesentium tempore deleniti!</p>
+            </div>
+            <div className="test2">
+              <div className="test-image2"/>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iure architecto! Harum quibusdam rerum aspernatur tenetur dolore aliquam dicta, illum quia asperiores, praesentium tempore deleniti!</p>
             </div>
           </div>
         </section>
