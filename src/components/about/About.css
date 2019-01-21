@@ -12,7 +12,6 @@
   background: url('../../assets/open.png') no-repeat center center/cover;
   height: 50vh;
   width: 50vw;
-  // border-radius: 50%;
 }
 
 .about-info .info-left {
@@ -25,7 +24,8 @@
 .about-heading {
   font-size: 40px;
   color: white;
-  padding-top: 50px;
+  padding-top: 90px;
+  padding-bottom: 70px;
 }
 
 .l-heading {
@@ -43,44 +43,46 @@
 }
 
 .tests .test-image1 {
-  background: url('../../assets/merc.png') no-repeat center center/cover;
+  background: url('../../assets/merc2.png') no-repeat center center/cover;
   height: 100vh; 
   width: 100vw; 
-  max-width: 350px; 
-  max-height: 200px;
-  display: block;
-  margin: 0 auto;
+  max-width: 400px; 
+  max-height: 250px;
   border-radius: 5px;
+  border: solid 2px #121212;
+  margin: 0 auto;
+
 }
 
 .test1 {
-  background: #A40000;
+  margin: 0 auto;
   color: white;
   border-radius: 10px;
-  margin: 50px;
-  width: 50%;
+  width: 26.2%;
   padding: 20px;
-  float: left;
 }
 
 .tests .test-image2 {
-  background: url('../../assets/bmw.png') no-repeat center center/cover;
+  background: url('../../assets/bmw2.png') no-repeat center center/cover;
   height: 100vh; 
   width: 100vw; 
-  max-width: 350px; 
-  max-height: 200px;
-  display: block;
-  margin: 0 auto;
+  max-width: 400px; 
+  max-height: 250px;
   border-radius: 5px;
+  border: solid 2px #121212;
+  margin: 0 auto;
 }
 
 .test2 {
   margin: 0 auto;
-  background: #A40000;
   color: white;
   border-radius: 10px;
-  margin: 50px;
-  width: 50%;
+  width: 26.2%;
   padding: 20px;
-  float: right;
+}
+
+.test1 p, .test2 p {
+  background: #A40000;
+  padding: 0;
+  margin: 0;
 }

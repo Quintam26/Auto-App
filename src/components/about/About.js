@@ -29,11 +29,11 @@ class About extends Component {
             <h2 className="about-heading">Automotive Perfection</h2>
             <div className="test1">
               <div className="test-image1"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iure architecto! Harum quibusdam rerum aspernatur tenetur dolore aliquam dicta, illum quia asperiores, praesentium tempore deleniti!</p>
+              <p>2017 MERC AMG</p>
             </div>
             <div className="test2">
               <div className="test-image2"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iure architecto! Harum quibusdam rerum aspernatur tenetur dolore aliquam dicta, illum quia asperiores, praesentium tempore deleniti!</p>
+              <p>2019 BMW M4</p>
             </div>
           </div>
         </section>
