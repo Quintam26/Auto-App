@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styles from './Header.css';
 
 class Header extends Component {
@@ -14,13 +14,13 @@ class Header extends Component {
             <h2 className="logo"><a>MQM</a></h2>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <NavLink exact activeClassName="active" to="/">Home</NavLink>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <NavLink exact activeClassName="active" to="/about" >About</NavLink>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <NavLink activeClassName="active" to="/contact">Contact</NavLink>
               </li>
             </ul>
           </div>
