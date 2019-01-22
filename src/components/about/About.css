@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 768px) {
   .about-info .image {
-    height: 45vh;
+    height: 35vh;
     width: 100%;
   }
 }
@@ -65,7 +65,7 @@
 
 @media screen and (max-width: 768px) {
   .tests {
-    height: 95vh;
+    height: 82vh;
   }
 }
 
@@ -99,7 +99,7 @@
 @media screen and (max-width: 768px) {
   .test1 {
     padding: 0;
-    width: 73%;
+    width: 39%;
   }
 }
 
@@ -132,7 +132,7 @@
 @media screen and (max-width: 768px) {
   .test2 {
     padding: 0;
-    width: 73%;
+    width: 39%;
   }
 }
 

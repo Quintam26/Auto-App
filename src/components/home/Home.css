@@ -14,6 +14,12 @@
   height: 60vh;
 }
 
+@media screen and (max-width: 768px) {
+  .home-info {
+    height: 50vh;
+  }
+}
+
 .info-img {
   float: left;
   width: 50%;
@@ -85,6 +91,16 @@
   line-height: 1.2em;
   padding-bottom: 30px;
 }
+
+.home-info p {
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .info-content p {
+    padding-bottom: 60px;
+  }
+ }
 
 .start-btn {
   text-decoration: none;
