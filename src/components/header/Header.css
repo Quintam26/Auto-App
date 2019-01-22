@@ -28,13 +28,27 @@ p {
   padding-bottom: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  .topnav h2 {
+    float: none;
+    text-align: center;
+  }
+}
+
 .topnav ul {
   list-style: none;
   float: right;
 }
 
+
 .topnav ul li {
   float: left;
+}
+
+@media screen and (max-width: 768px) {
+  .topnav ul, .topnav ul li {
+    float: none;
+  }
 }
 
 .topnav ul li a {
@@ -43,6 +57,13 @@ p {
   text-decoration: none;
   padding: 20px;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .topnav ul li a {
+    padding: 5px;
+    border-bottom: #242424 1px solid;
+  }
 }
 
 .topnav ul li a:hover {

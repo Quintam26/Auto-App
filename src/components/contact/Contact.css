@@ -4,9 +4,16 @@
   width: 100vw;
 }
 
+@media screen and (max-width: 768px) {
+  .contact-image {
+    height: 125vh;
+  }
+}
+
 .contact-form {
   padding-top: 170px;
 }
+
 .contact-form .form-group {
   margin: 20px;
 }
@@ -45,6 +52,13 @@
   color: white;
   float: left;
   width: 33.3%;
+}
+
+@media screen and (max-width: 768px) {
+  .box-bk {
+    float: none;
+    width: 100%;
+  }
 }
 
 .c-heading {
