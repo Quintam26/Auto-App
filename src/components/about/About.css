@@ -8,10 +8,24 @@
   min-height: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .about-info .info-right {
+    float: none;
+    width: 100%;
+  }
+}
+
 .about-info .image {
   background: url('../../assets/open.png') no-repeat center center/cover;
   height: 50vh;
-  width: 50vw;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .about-info .image {
+    height: 45vh;
+    width: 100%;
+  }
 }
 
 .about-info .info-left {
@@ -19,6 +33,13 @@
   width: 50%;
   min-height: 100%;
   padding: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-info .info-left {
+    float: none;
+    width: 100%;
+  }
 }
 
 .about-heading {
@@ -42,6 +63,13 @@
   width: 100vw;
 }
 
+@media screen and (max-width: 768px) {
+  .tests {
+    height: 95vh;
+  }
+}
+
+
 .tests .test-image1 {
   background: url('../../assets/merc2.png') no-repeat center center/cover;
   height: 100vh; 
@@ -51,15 +79,28 @@
   border-radius: 5px;
   border: solid 2px #121212;
   margin: 0 auto;
+}
 
+@media screen and (max-width: 768px) {
+  .tests .test-image1 {
+    max-width: 300px;
+    max-height: 200px;
+  }
 }
 
 .test1 {
   margin: 0 auto;
   color: white;
   border-radius: 10px;
-  width: 26.2%;
+  width: 23%;
   padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .test1 {
+    padding: 0;
+    width: 73%;
+  }
 }
 
 .tests .test-image2 {
@@ -73,13 +114,28 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+  .tests .test-image2 {
+    max-width: 300px;
+    max-height: 200px;
+  }
+}
+
 .test2 {
   margin: 0 auto;
   color: white;
   border-radius: 10px;
-  width: 26.2%;
+  width: 23%;
   padding: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .test2 {
+    padding: 0;
+    width: 73%;
+  }
+}
+
 
 .test1 p, .test2 p {
   background: #A40000;

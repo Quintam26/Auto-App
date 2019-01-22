@@ -22,6 +22,12 @@
   padding: 0 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .info-img {
+    display: none;
+  }
+}
+
 .info-content {
   float: right;
   width: 50%;
@@ -31,6 +37,13 @@
   overflow: hidden;
   background: #121212;
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .info-content {
+    float: none;
+    width: 100%;
+  }
 }
 
 .home-content {
@@ -111,6 +124,13 @@
   padding: 50px;
   width: 33.3%;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    float: none;
+    width: 100%;
+  }
 }
 
 .box i {
