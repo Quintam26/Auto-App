@@ -17,7 +17,7 @@ class About extends Component {
             </div>
 
             <div className="info-right">
-              <div className="image"/>
+              <img src={require('../../assets/open.png')}/>
             </div>
           </div>
         </section>
@@ -28,11 +28,11 @@ class About extends Component {
           <div className="test-container">
             <h2 className="about-heading">Automotive Perfection</h2>
             <div className="test1">
-              <div className="test-image1"/>
+              <img src={require('../../assets/merc2.png')}/>
               <p>2017 MERC AMG</p>
             </div>
             <div className="test2">
-              <div className="test-image2"/>
+              <img src={require('../../assets/bmw2.png')}/>
               <p>2019 BMW M4</p>
             </div>
           </div>
