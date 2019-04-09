@@ -1,24 +1,11 @@
 :local(.car) {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-padding: 0;
-
-img {
-  width: 70%;
-  height: auto;
-}
-
-Link {
   list-style: none;
-}
+  text-align: center;
 
-p {
-  pointer-events: none;
-  cursor: default;
-  text-decoration: none;
-  color: black;  
-}
+  p {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: black;  }
   
 }

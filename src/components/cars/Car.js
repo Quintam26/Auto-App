@@ -17,11 +17,11 @@ export default class Car extends Component {
       <li className={styles.car}>
         <Link to={`/car/${id}`}>
           {media.photo_links[0] !== 'N/A'
-            ? <img src={media.photo_links[0]}/>
+            ? <img src={media.photo_links[0]} style={{ 'width':'500px' }}/>
             : <img src="N/A"/>}
           <h3>{heading}</h3>
-          <p>Price: ${price}</p>
-          <p>Miles: {miles}</p>
+          <p><strong>Price:</strong> ${price}</p>
+          <p><strong>Miles:</strong> {miles}</p>
         </Link>
       </li>
     );
