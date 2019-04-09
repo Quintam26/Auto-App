@@ -1,11 +1,14 @@
-:local(.car) {
+li {
   list-style: none;
-  text-align: center;
-
-  p {
-    pointer-events: none;
-    cursor: default;
-    text-decoration: none;
-    color: black;  }
-  
 }
+
+.car-image {
+  width: 500px;
+  height: auto;
+}
+
+a:Link {
+  text-decoration: none;
+  color: black;
+}
+
