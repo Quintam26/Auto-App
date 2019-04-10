@@ -12,8 +12,12 @@ li {
   margin: 20px;
 }
 
+.car-tile:hover {
+  border: #A40000 solid 2px;
+}
+
 .car-image {
-  width: 500px;
+  width: 400px;
   height: auto;
 }
 

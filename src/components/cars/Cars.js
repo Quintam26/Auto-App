@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Car from './Car';
-import styles from './Cars.css';
 
 class Cars extends Component {
 
@@ -13,7 +12,7 @@ class Cars extends Component {
     const { cars } = this.props;
 
     return (
-      <ul className={styles.cars}>
+      <ul>
         {cars.map((car, i) => (
           <Car key={i} car={car}/>
         ))}

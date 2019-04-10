@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import Home from '../home/Home';
 import Header from '../header/Header';
 import About from '../about/About';
@@ -26,6 +26,7 @@ class App extends Component {
               <Route exact path="/contact" component={Contact}/>
               <Route exact path="/search" component={Results}/>
               <Route exact path="/car/:id" component={CarDetail}/>
+              <Redirect to="/"/>
             </Switch>
           </main>
           <Footer/>

@@ -1,31 +1,10 @@
-:local(.carDetail) {
-  padding: 10px 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  width: 475px;
-  height: 700px;
-  border-radius: 5px;
-
-  img {
-      width: 225px;
-      height: 225px;
-      margin: 20px;
-  }
-
-  h2 {
-    margin: 5px;
-  }
-
-  p {
-    margin: 5px;
-    align-items: flex-start;
-  }
-
-  button {
-    margin-top: 20px;
-    align-items: flex-start;
-  }
+.detail-cont {
+  margin: 40px;
+  border: 1px solid #333;
 }
+
+.car-image-list {
+  width: 700px;
+  height: auto;
+}
+

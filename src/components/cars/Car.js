@@ -19,7 +19,7 @@ export default class Car extends Component {
           <Link to={`/car/${id}`}>
             {media.photo_links[0] !== 'N/A'
               ? <img className="car-image" src={media.photo_links[0]}/>
-              : <img src="N/A"/>}
+              : <img src='https://vollrath.com/ClientCss/images/VollrathImages/No_Image_Available.jpg'/>}
             <h3>{heading}</h3>
             <p><strong>Price:</strong> ${price}</p>
             <p><strong>Miles:</strong> {miles}</p>

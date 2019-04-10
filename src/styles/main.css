@@ -8,12 +8,16 @@ body {
   box-sizing: border-box;
 }
  
+.search-form {
+  display: flex;
+  justify-content: flex-end;
+  }
+
 
 main {
   display: flex;
   justify-content: center;
   text-align: center;
-  height: 100%;
 }
 
 * {
@@ -30,5 +34,23 @@ input
 textarea
 {
   font-family: inherit;
+  border-radius: 0.3rem;
+}
+
+button{
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid silver;
+}
+
+button:hover {
+  border-top-color: #A40000;
+  background: #A40000;
+  color: white;
+}
+
+.input{
+  font-family: inherit;
+  font-size: var(--inputFontSize);
   border-radius: 0.3rem;
 }

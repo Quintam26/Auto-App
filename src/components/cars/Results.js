@@ -1,6 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import { Route } from 'react-router-dom';
-import Search from '../search/Search';
 import PropTypes from 'prop-types';
 import qs from 'query-string';
 import Cars from './Cars';
@@ -112,10 +110,6 @@ class Results extends Component {
             }
           </div>
           
-          <section className="search-container">
-            <Route component={Search}/>
-          </section>
-
           <div className="results-container">
             {cars
               ? <Cars cars={cars}/>

@@ -33,7 +33,7 @@ class Search extends Component {
       pathname: '/search',
       search: qs.stringify({ search, page: 1 })
     });
-    this.setState({ search: '' });
+    this.setState({ search:'' });
   };
 
   render() {
