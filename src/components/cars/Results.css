@@ -1,6 +1,14 @@
 .results-container {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.search-term {
   text-align: center;
-  padding-top: 170px;
 }

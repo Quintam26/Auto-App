@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import qs from 'query-string';
 import Cars from './Cars';
 import Paging from '../paging/Paging';
+import styles from './Results.css';
 import { search as searchCars } from '../../services/marketcheckApi';
 
 class Results extends Component {
@@ -88,34 +89,40 @@ class Results extends Component {
     const { searchTerm } = this;
 
     return (
-      <section>
+      <section className="mlist">
         {(loading || error) &&
         <section className="notifications">
           {loading && <div>Loading...</div>}
           {error && <div>{error}</div>}      
         </section>
         }
+        
+        <div className={styles.results}>
+          <div className="search-term">
+            {searchTerm &&
+            <Fragment>
+              <p>Searching for &quot;{searchTerm}&quot;</p>
+              <Paging
+                page={+this.searchPage}
+                perPage={perPage}
+                num_found={parseInt(num_found)}
+                onPage={this.handlePage}
+              />
+            </Fragment>
+            }
+          </div>
+          
+          <section className="search-container">
+            <Route component={Search}/>
+          </section>
 
-        {searchTerm &&
-          <Fragment>
-            <p>Searching for &quot;{searchTerm}&quot;</p>
-            <Paging
-              page={+this.searchPage}
-              perPage={perPage}
-              num_found={parseInt(num_found)}
-              onPage={this.handlePage}
-            />
-          </Fragment>
-        }
-        <div>
-          {cars
-            ? <Cars cars={cars}/>
-            : <h2>Please enter your search</h2>
-          }
+          <div className="results-container">
+            {cars
+              ? <Cars cars={cars}/>
+              : <h2>Please enter your search</h2>
+            }
+          </div>
         </div>
-        <section className="search-container">
-          <Route component={Search}/>
-        </section>
       </section>
     );
   }

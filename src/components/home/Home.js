@@ -20,7 +20,7 @@ class Home extends Component {
           <div className="info-img">
             <h2>Find the <span className="main-text">ONE</span></h2>
             <p>There have been other tracks that separated the men from the boys. This is the track that will separate the brave from the weak after the boys are gone. Faster, faster, faster, until the thrill of speed overcomes the fear of death, and racing becomes a matter of spirit not strength.They love to speed.</p>
-            <Link to="/search" className="start-btn">Start Now</Link>
+            <Link to="/search" className="start-btn">Search Now</Link>
           </div>
 
           <div className="info-content">
@@ -33,7 +33,7 @@ class Home extends Component {
         <section className="features">
           <div className="box">
             <i className="fas fa-globe-americas fa-3x"></i>
-            <h3>Search The World</h3>
+            <h3>Explore The World</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, perferendis.</p>
           </div>
           <div className="box bg-ex">

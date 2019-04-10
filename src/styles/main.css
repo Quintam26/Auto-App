@@ -13,16 +13,13 @@ main {
   display: flex;
   justify-content: center;
   text-align: center;
+  height: 100%;
 }
 
 * {
   box-sizing: border-box;
 }
 
-.search-form {
-  display: flex;
-  justify-content: flex-end;
-}
 
 input
 {
